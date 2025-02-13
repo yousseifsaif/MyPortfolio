@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/YOUR-KIT-ID.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+        <button id="dark-mode-toggle">🌙 Dark Mode</button>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li><a href="#cv"><i class="fas fa-file-alt"></i> CV</a></li>
+            </ul>
+
+
+        </nav>
+    </header>
+
+    <section id="about" class="fade-in">
+        <h2>About Me</h2>
+        <p>Hello, my name is Yousseif Saif. I am 23 years old and have a hobby of programming. I am an Android developer with one year of experience in both native and cross-platform development. I started my programming career when I was 19 years old</p>
+    </section>
+
+
+    <section id="projects" class="fade-in">
+        <h2>My Projects</h2>
+        <div class="project fade-in">
+            <h3>Project 1</h3>
+            <p>Simple description of the project.</p>
+        </div>
+        <div class="project fade-in">
+            <h3>Project 2</h3>
+            <p>Another great project.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <h2>Let's Connect!</h2>
+        <p>I'd love to hear from you! Whether you have a project in mind, a question, or just want to say hi, feel free to reach out.</p>
+
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p id="form-message"></p>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/yousseif-saif/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/yousseifsaif" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:yousseifsaif1@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <section id="cv" class="fade-in">
+        <h2>My CV</h2>
+        <p>Here you can download my resume.</p>
+        <a href="CV.pdf" download class="cv-button">Download CV</a>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2025 My Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
